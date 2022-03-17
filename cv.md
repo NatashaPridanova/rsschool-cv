@@ -20,25 +20,27 @@ I'm a language student who apart from Italian is also passionate about programmi
 * Visual Studio Code
 
 ## Education ##
-Codecademy Learn HTML(completed)
+-Codecademy Learn HTML(completed)
 
 
-Codecademy Learn CSS(completed)
+-Codecademy Learn CSS(completed)
 
 
-Codecademy Learn Intermediate CSS(completed)
+-Codecademy Learn Intermediate CSS(completed)
 
 
-Codecademy Learn JavaScript, Learn Intermediate JavaScript(in process)
+-Codecademy Learn JavaScript, Learn Intermediate JavaScript(in process)
 
 
 
 
 
-JavaScript Front-End Pre-school 2022(completed)
 
 
-JS Frontend developer in Rolling Scopes School(in process)
+-JavaScript Front-End Pre-school 2022(completed)
+
+
+-JS Frontend developer in Rolling Scopes School(in process)
 
 ## Languages ##
 * Italian - B2

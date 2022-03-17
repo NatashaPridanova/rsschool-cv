@@ -20,19 +20,16 @@ I'm a language student who apart from Italian is also passionate about programmi
 * Visual Studio Code
 
 ## Education ##
--Codecademy Learn HTML(completed)
+- Codecademy Learn HTML(completed)
 
 
--Codecademy Learn CSS(completed)
+- Codecademy Learn CSS(completed)
 
 
--Codecademy Learn Intermediate CSS(completed)
+- Codecademy Learn Intermediate CSS(completed)
 
 
--Codecademy Learn JavaScript, Learn Intermediate JavaScript(in process)
-
-
-
+- Codecademy Learn JavaScript, Learn Intermediate JavaScript(in process)
 
 
 

@@ -34,10 +34,10 @@ I'm a language student who apart from Italian is also passionate about programmi
 
 
 
--JavaScript Front-End Pre-school 2022(completed)
+- JavaScript Front-End Pre-school 2022(completed)
 
 
--JS Frontend developer in Rolling Scopes School(in process)
+- JS Frontend developer in Rolling Scopes School(in process)
 
 ## Languages ##
 * Italian - B2

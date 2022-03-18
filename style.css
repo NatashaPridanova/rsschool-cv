@@ -1,87 +1,133 @@
-@font-face {
-    font-family: "Miracle";
-    src: url("assets/fonts/Miracle Personal use.otf");
-}
-
-@font-face {
-    font-family: "Dosis";
-    src: url("assets/fonts/Dosis-Medium.ttf");
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "Dosis";
-    src: url("assets/fonts/Dosis-Light.ttf");
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: "Dosis";
-    src: url("assets/fonts/Dosis-ExtraLight.ttf");
-    font-weight: 200;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: "Dosis";
-    font-size: 50px;
-    font-weight: 200;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-h1 {
-    font-family: "Miracle";
-    font-size: 100px;
-    font-weight: 100;
-}
-
-.header,
-.main,
-.footer {
-    border: 1px solid red;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-
-/* -------- HEADER ---------- */
-
-.nav-list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-}
-
-.nav-link {
-    padding: 0 20px;
-    line-height: 50px;
-    font-family: "Miracle";
-    font-size: 20px;
-    font-weight: 100;
-    text-decoration: none;
-    color: black;
-}
-
-.nav-link {
-    transition: .3s;
-}
-
-.nav-link:hover {
-    color: blue;
-}
+    @font-face {
+        font-family: "Miracle";
+        src: url("assets/fonts/Miracle Personal use.otf");
+    }
+    
+    @font-face {
+        font-family: "Dosis";
+        src: url("assets/fonts/Dosis-Medium.ttf");
+        font-weight: 500;
+    }
+    
+    @font-face {
+        font-family: "Dosis";
+        src: url("assets/fonts/Dosis-Light.ttf");
+        font-weight: 300;
+    }
+    
+    @font-face {
+        font-family: "Dosis";
+        src: url("assets/fonts/Dosis-ExtraLight.ttf");
+        font-weight: 200;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: "Dosis";
+        font-size: 50px;
+        font-weight: 200;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    h1 {
+        font-family: "Miracle";
+        font-size: 100px;
+        font-weight: 100;
+    }
+    
+    p {
+        font-size: 40px;
+    }
+    
+    .header,
+    .main,
+    .footer {
+        border: 1px solid red;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    /* -------- HEADER -------- */
+    
+    .nav-list {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+    }
+    
+    .nav-link {
+        padding: 0 20px;
+        line-height: 50px;
+        font-family: "Miracle";
+        font-size: 20px;
+        font-weight: 100;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .nav-link {
+        transition: .3s;
+    }
+    
+    .nav-link:hover {
+        color: blue;
+    }
+    /* -------- CIRCLE -------- */
+    
+    .circle {
+        position: relative;
+        width: 260px;
+        height: 260px;
+        border-radius: 50%;
+        /*background-color: blue;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background: url(assets/avatar.jpg);
+        background-size: cover;
+        border-radius: 50%;
+    }
+    
+    .text {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        animation: rotateText 10s linear infinite;
+    }
+    
+    @keyframes rotateText {
+        0% {
+            transform: rotate(360deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+    
+    .text span {
+        position: absolute;
+        font-size: 1.1em;
+        left: 50%;
+        transform-origin: 0 130px;
+    }

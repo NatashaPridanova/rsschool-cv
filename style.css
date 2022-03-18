@@ -60,6 +60,7 @@
     .container {
         max-width: 1200px;
         margin: 0 auto;
+        padding: 0 20px;
     }
     /* -------- HEADER -------- */
     
@@ -130,4 +131,59 @@
         font-size: 1.1em;
         left: 50%;
         transform-origin: 0 130px;
+    }
+    /* -------- SECTIONS -------- */
+    
+    h2 {
+        font-family: "Miracle";
+        font-weight: 300;
+        font-size: 50px;
+    }
+    
+    .section {
+        min-height: 100vh;
+    }
+    
+    .text-info {
+        font-size: 20px;
+    }
+    /* -------- ABOUTME -------- */
+    
+    .about {
+        padding: 20px;
+    }
+    
+    .aboutme-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .about-first {
+        align-items: center;
+        text-align: left;
+    }
+    
+    .about-second {
+        text-align: right;
+        margin-left: auto;
+    }
+    /* -------- SKILLS -------- */
+    
+    .skills-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    
+    @counter-style star {
+        system: cyclic;
+        symbols: "\2734";
+        suffix: " ";
+    }
+    
+    .skills-list {
+        list-style: star;
     }

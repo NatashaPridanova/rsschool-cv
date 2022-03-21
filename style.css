@@ -139,7 +139,7 @@
         font-size: 50px;
     }
     
-    .section {
+    .section:not(:last-of-type) {
         min-height: 100vh;
     }
     
@@ -162,11 +162,17 @@
     .about-first {
         align-items: center;
         text-align: left;
+        font-weight: 300;
+    }
+    
+    .about-first p:hover {
+        background-color: rgb(200, 200, 243);
     }
     
     .about-second {
         text-align: right;
         margin-left: auto;
+        font-weight: 300;
     }
     /* -------- ABOUTME GRID -------- */
     
@@ -215,7 +221,8 @@
     .skills-section {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 100px;
         padding: 30px;
     }
     
@@ -228,6 +235,7 @@
     .skills-list {
         list-style: star;
     }
+    /* -------- CODE SECTION-------- */
     
     code {
         font-family: "Dosis";
@@ -236,10 +244,67 @@
         font-weight: 200;
     }
     
+    .code-task {
+        width: 40%;
+    }
+    
     h3 {
         font-family: "Miracle";
         font-size: 25px;
         font-weight: 100;
+    }
+    /* -------- SKILLS BARS W PROGRESS-------- */
+    
+    h4 {
+        font-family: "Dosis";
+        font-weight: 300;
+    }
+    
+    .skills-list p {
+        font-weight: 300;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .skills-bar {
+        background-color: rgb(188, 222, 226);
+    }
+    
+    .skill1 {
+        width: 90%;
+        height: 10px;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .skill2 {
+        width: 70%;
+        height: 10px;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .skill3 {
+        width: 70%;
+        height: 10px;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .skill4 {
+        width: 80%;
+        height: 10px;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .skill5 {
+        width: 95%;
+        height: 10px;
+        background-color: rgb(0, 0, 0);
+    }
+    /* -------- CONTACTME -------- */
+    
+    .contactme-section {
+        font-family: "Miracle";
+        font-weight: 100;
+        font-size: 17px;
     }
     /* -------- FOOTER -------- */
     

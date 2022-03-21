@@ -18,6 +18,7 @@
                     <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                     <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                     <li class="nav-item"><a href="#contactme" class="nav-link">Contact me</a></li>
                 </ul>
             </nav>
@@ -64,11 +65,41 @@
             <div class="section-content skills-section">
                 <div class="skills-programming">
                     <ul class="text-info skills-list">
-                        <li class="skills-list">HTML</li>
-                        <li class="skills-list">CSS</li>
-                        <li class="skills-list">Core JS</li>
-                        <li class="skills-list">Git, Github</li>
-                        <li class="skills-list">Visual Studio Code</li>
+                        <li class="skills-list">
+                            <h4>HTML</h4>
+                            <p>- 90% -</p>
+                            <div class="skills-bar">
+                                <div class="skill1"></div>
+                            </div>
+                        </li>
+                        <li class="skills-list">
+                            <h4>CSS</h4>
+                            <p>- 70% -</p>
+                            <div class="skills-bar">
+                                <div class="skill2"></div>
+                            </div>
+                        </li>
+                        <li class="skills-list">
+                            <h4>Core JS</h4>
+                            <p>- 70% -</p>
+                            <div class="skills-bar">
+                                <div class="skill3"></div>
+                            </div>
+                        </li>
+                        <li class="skills-list">
+                            <h4>Git, Github</h4>
+                            <p>- 80% -</p>
+                            <div class="skills-bar">
+                                <div class="skill4"></div>
+                            </div>
+                        </li>
+                        <li class="skills-list">
+                            <h4>Visual Studio Code</h4>
+                            <p>- 95% -</p>
+                            <div class="skills-bar">
+                                <div class="skill5"></div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
                 <div class="skills-languages">
@@ -86,30 +117,44 @@
         <section class="section" id="code">
             <h2 class="section-title">Code</h2>
             <div class="section-content skills-section">
-                <div class="code-solution">
-                    <h3>Codewars kata</h3>
-                    <pre><code>function bingo(ticket, win) {
-                    let counter = 0;
-                    ticket.forEach((item) => {
-                        let miniwin = 0;
-                        for (let i = 0; i < item[0].length; i++) {
-                            if (item[0].charCodeAt(i) === item[1]) { miniwin = 1 }
-                        }
-                        miniwin > 0 ? counter = counter + 1 : counter = counter;
-                    });
-                    return (counter >= win ? "Winner!" : "Loser!");
-                }</code></pre></div>
                 <div class="code-task">
-                    <h3>Kata solution</h3>
+                    <h3>Codewars kata</h3>
                     <p class="text-info">Given a lottery ticket (ticket), represented by an array of 2-value arrays, you must find out if you’ve won the jackpot. Example ticket: [ [ ‘ABC’, 65 ], [ ‘HGR’, 74 ], [ ‘BYHT’, 74 ] ] </p>
-                    <p class="text-info">To do this, you must first count the ‘mini-wins’ on your ticket. Each subarray has both a string and a number within it. If the character code of any of the characters in the string matches the number, you get a mini win. Note you
-                        can only have one mini win per sub array. </p>
+                    <p class="text-info">If the character code of any of the characters in the string matches the number, you get a mini win. Note you can only have one mini win per sub array. </p>
                     <p class="text-info">Once you have counted all of your mini wins, compare that number to the other input provided (win). If your total is more than or equal to (win), return ‘Winner!’. Else return ‘Loser!’.</p>
+                </div>
+                <div class="code-solution">
+                    <h3>Kata solution</h3>
+                    <pre><code>function bingo(ticket, win) {
+                        let counter = 0;
+                        ticket.forEach((item) => {
+                            let miniwin = 0;
+                            for (let i = 0; i < item[0].length; i++) {
+                                if (item[0].charCodeAt(i) === item[1]) { miniwin = 1 }
+                            }
+                            miniwin > 0 ? counter = counter + 1 : counter = counter;
+                        });
+                        return (counter >= win ? "Winner!" : "Loser!");
+                    }</code></pre>
+
                 </div>
             </div>
 
 
         </section>
+        <section class="section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="project">
+                <a href=""></a>
+                <div class="project-info">
+                    <h3 class="project-name"></h3>
+                    <h5 class="project-skills"></h5>
+                    <p class="project-description"></p>
+                    <a href=""></a>
+                </div>
+            </div>
+        </section>
+
         <section class="section" id="contactme">
             <h2 class="section-title">Contact me</h2>
             <div class="section-content contactme-section">
@@ -133,6 +178,15 @@
 
     </footer>
     <script src="index.js"></script>
+
+</body>
+
+</html>
+</div>
+</div>
+
+</footer>
+<script src="index.js"></script>
 
 </body>
 
